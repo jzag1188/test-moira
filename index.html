@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Moira Test</title>
+    <meta name="description" content="Test">
+    <meta name="viewport" content="width=290,initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap" rel="stylesheet">
+    <meta name="robots" content="index, follow" />
+    <link rel="icon" type="image/x-icon" href="https://moira.club/favicon.png">
+</head>
+
+<body>
+    <div class="main-container">
+        <!---- SIDE MENU ---->
+        <div class="menu-static sidebar-nav">
+            <ul class="sidebar-menu">
+                <div class="logo">
+                    <a href="#">
+                        <img src="assets/logo.png" alt="logo">
+                    </a>
+                </div>
+                <i class="close"></i>
+                <li><span class="nav-section-title"></span></li>
+
+                <!--- Menu 1 --->
+                <li class="menu-play nav-main" id="play">
+                    <a href="#">
+                        <div class="icon"><span class="play"></span></div>Play
+                    </a>
+                </li>
+
+                <!--- MENU 2 --->
+                <li class="menu-learn nav-main" id="learn">
+                    <a href="#">
+                        <div class="icon"><span class="learn"></span></div>Learn
+                    </a>
+                </li>
+
+                <!--- MENU 3 --->
+                <li class="menu-enjoy nav-main" id="enjoy">
+                    <a href="#">
+                        <div class="icon"><span class="enjoy"></span></div>Enjoy
+                    </a>
+                </li>
+
+                <!--- MENU 4 --->
+                <li class="menu-fit nav-main" id="fit">
+                    <a href="#">
+                        <div class="icon"><span class="ready"></span></div>Fitness
+                    </a>
+                </li>
+
+                <!---- ICONS DOWN --->
+                <div class="options">
+                    <a href="#">
+                        <button class="btn btn-login">
+                            <img src="assets/faq.svg" alt="">
+                        </button>
+                    </a>
+                    <a href="/contact">
+                        <button class="btn btn-login">
+                            <img src="assets/login.svg" alt="">
+                        </button>
+                    </a>
+                    <div class="lang" style="position: relative;">
+                        <a href="#">
+                            <button class="btn btn-login" id="lang-btn">
+                                <img src="assets/language.svg" alt="">
+                            </button>
+                        </a>
+                        <a style="color: #555" href="#">English ▼</a>
+                    </div>
+                </div>
+
+                <!-- Install Moira App -->
+                <div class="menu-install">
+                    <a href="#" class="install-app">
+                        <!-- Ícono de Google Play -->
+                        <div class="icon">
+                            <img src="assets/googleplay.png" alt="Google Play">
+                        </div>
+                        INSTALL MOIRA APP
+                    </a>
+                </div>
+            </ul>
+        </div>
+
+        <!---- HEDEAR MOVIL ------>
+        <main>
+            <div class="header-mobile">
+                <div class="header">
+                    <i class="menu"></i>
+                    <div class="logo">
+                        <a href="/">
+                            <img src="assets/logo.png" alt="logo">
+                        </a>
+                    </div>
+                </div>
+                <div class="top-menu"></div>
+            </div>
+
+            <!---- MOBILE ICONS HEADER --->
+            <div class="container">
+                <div class="header-links">
+                    <div>
+                        <a href="/play">
+                            <div class="icon"><span class="play"></span></div>
+                            <p>Play</p>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="/learn">
+                            <div class="icon"><span class="learn"></span></div>
+                            <p>Learn</p>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="/stream">
+                            <div class="icon"><span class="enjoy"></span></div>
+                            <p>Enjoy</p>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="/fit">
+                            <div class="icon"><span class="ready"></span></div>
+                            <p>Fitness</p>
+                        </a>
+                    </div>
+                </div>
+
+                <!---- SLIDER ---->
+                <div class="content">
+                    <div class="slider-content">
+                        <div class="slider">
+                            <div class="slides">
+
+                                <!-- Slide 1 -->
+                                <div class="slide">
+                                    <picture>
+                                        <source media="(max-width: 768px)" srcset="assets/playfrozen.jpg">
+                                        <source media="(min-width: 769px)" srcset="assets/playfrozen.jpg">
+                                        <img src="assets/playfrozen.jpg" alt="Frozen">
+                                    </picture>
+                                    <div class="slide-caption">
+                                        <div class="logo-container">
+                                            <img src="assets/playfrozen-logo.png" alt="Disney+" class="brand-logo">
+                                        </div>
+                                        <p>The Official Movie Mobile Games</p>
+                                        <a href="#">
+                                            <button class="bn color-btn blue">PLAY NOW</button>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <!-- Slide 2 -->
+                                <div class="slide">
+                                    <picture>
+                                        <source media="(max-width: 768px)" srcset="assets/spiderman.jpg">
+                                        <source media="(min-width: 769px)" srcset="assets/spiderman.jpg">
+                                        <img src="assets/spiderman.jpg" alt="Spider-Man">
+                                    </picture>
+                                    <div class="slide-caption">
+                                        <div class="logo-container">
+                                            <img src="assets/playspiderman_logo.png" alt="Spider-Man No Way Home" class="brand-logo">
+                                        </div>
+                                        <p>The Official Movie Mobile Game - Be the hero</p>
+                                        <a href="#">
+                                            <button class="bn color-btn red">PLAY NOW</button>
+                                        </a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!---- TEXTO INTRO AND BUTTOMS-->
+                    <div class="intro">
+                        <h1>Moira, unlimited content</h1>
+                        <h2>The Latest Movies, TV Shows, Games, Music & More...</h2>
+                    </div>
+
+                    <!---PLAY ----->
+                    <section class="games-section play-section">
+                        <a href="#">
+                            <div class="title-section">
+                                <i class="play"></i>
+                                <h2> Play</h2>
+                                <i class="arrow-down"></i>
+                            </div>
+                        </a>
+
+                        <div class="title-section title-category">
+                            <a href="#">
+                                <h3> Trending</h3>
+                                <span>See more <i class="arrow-down"></i></span>
+                            </a>
+                        </div>
+
+                        <!--------Game Area -------->
+                        <div class="game-container">
+                            <div class="game-row">
+                                <!-- Game Card 1 -->
+                                <div class="game-card">
+                                    <div class="game-image">
+                                        <img src="assets/game01.png" alt="Disney XD Villains Ahead!" />
+                                    </div>
+                                    <div class="game-info">
+                                        <div class="game-icon">
+                                            <img src="assets/game01.png" alt="Disney XD Villains Icon" />
+                                        </div>
+                                        <div class="game-details">
+                                            <div class="game-title">Disney XD Villains Ahead!</div>
+
+                                            <div class="rating-button-container">
+                                                <div class="rating">★★★★☆</div>
+                                                <button class="get-button">Get</button>
+                                            </div>
+                                            <div class="game-description">Doctor Doofenshmirtz did it again! With his new device, he is really...</div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Game Card 2 -->
+                                <div class="game-card">
+                                    <div class="game-image">
+                                        <img src="assets/game02.jpg" alt="Monster Hunting!" />
+                                    </div>
+                                    <div class="game-info">
+                                        <div class="game-icon">
+                                            <img src="assets/game02.jpg" alt="Monster Hunting icon" />
+                                        </div>
+                                        <div class="game-details">
+                                            <div class="game-title">Monster Hunting!</div>
+
+                                            <div class="rating-button-container">
+                                                <div class="rating">★★★★☆</div>
+                                                <button class="get-button">Get</button>
+                                            </div>
+                                            <div class="game-description">The city is full of monsters! Help the characters from the different...</div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Game Card 3 -->
+                                <div class="game-card">
+                                    <div class="game-image">
+                                        <img src="assets/game03.png" alt="simpsons" />
+                                    </div>
+                                    <div class="game-info">
+                                        <div class="game-icon">
+                                            <img src="assets/game03.png" alt="simpsonsicon" />
+                                        </div>
+                                        <div class="game-details">
+                                            <div class="game-title">The Simpsons Matching Pairs</div>
+
+                                            <div class="rating-button-container">
+                                                <div class="rating">★★★★☆</div>
+                                                <button class="get-button">Get</button>
+                                            </div>
+                                            <div class="game-description">The Simpsons Matching Pairs is a game based on a famous TV Sho...</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!---LEARN ----->
+                    <section class="games-section learn-section">
+                        <a href="#">
+                            <div class="title-section">
+                                <i class="learn" style="color: #f4d156;"></i>
+                                <h2 style="color: #f4d156;"> Learn</h2>
+                                <i style="color: #f4d156" class="arrow-down"></i>
+                            </div>
+                        </a>
+
+                        <div class="title-section title-category">
+                            <a href="#">
+                                <h3> Must Have</h3>
+                            </a>
+                        </div>
+
+                        <!-------- APPS  -------->
+                        <div class="game-container">
+                            <div class="game-row">
+                                <!-- Game Card 1 -->
+                                <div class="game-card">
+                                    <div class="game-image">
+                                        <img src="assets/app01.png" alt="Dualingo" />
+                                    </div>
+                                    <div class="game-info">
+                                        <div class="game-icon">
+                                            <img src="assets/app01.png" alt="Dualingo icon" />
+                                        </div>
+                                        <div class="game-details">
+                                            <div class="game-title">Teach Dualingo Language</div>
+
+                                            <div class="rating-button-container">
+                                                <div class="rating">★★★★★</div>
+                                                <button class="get-button">Get</button>
+                                            </div>
+                                            <div class="game-description">If you want to learn a new language, this is your app. Becom...</div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Game Card 2 -->
+                                <div class="game-card">
+                                    <div class="game-image">
+                                        <img src="assets/app02.png" alt="Englis vocabulary" />
+                                    </div>
+                                    <div class="game-info">
+                                        <div class="game-icon">
+                                            <img src="assets/app02.png" alt="English vocabulary icon" />
+                                        </div>
+                                        <div class="game-details">
+                                            <div class="game-title">English Vocabulary</div>
+
+                                            <div class="rating-button-container">
+                                                <div class="rating">★★★★☆</div>
+                                                <button class="get-button">Get</button>
+                                            </div>
+                                            <div class="game-description">Learning English is not that hard but learning it correctly and completel...</div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Game Card 3 -->
+                                <div class="game-card">
+                                    <div class="game-image">
+                                        <img src="assets/app03.png" alt="question" />
+                                    </div>
+                                    <div class="game-info">
+                                        <div class="game-icon">
+                                            <img src="assets/app03.png" alt="questionicon" />
+                                        </div>
+                                        <div class="game-details">
+                                            <div class="game-title">Answer the Question</div>
+
+                                            <div class="rating-button-container">
+                                                <div class="rating">★★★★★</div>
+                                                <button class="get-button">Get</button>
+                                            </div>
+                                            <div class="game-description">You don´t know the answer to the question, this app can help you...</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!---Enjoy ----->
+                    <section class="games-section learn-section">
+                        <a href="#">
+                            <div class="title-section">
+                                <i class="enjoy" style="color: #ba7bd5;"></i>
+                                <h2 style="color: #ba7bd5;"> Enjoy</h2>
+                                <i style="color: #ba7bd5;" class="arrow-down"></i>
+                            </div>
+                        </a>
+
+                        <div class="title-section title-category">
+                            <a href="#">
+                                <h3> Trending Videos </h3>
+                            </a>
+                        </div>
+
+                        <!--------VIDEOS-------->
+                        <div class="game-container">
+                            <div class="game-row">
+                                <!-- Game Card 1 -->
+                                <div class="animal-card">
+                                    <div class="animal-image">
+                                        <img src="assets/video01.jpg" alt="Turtle" />
+                                    </div>
+                                    <div class="animal-info">
+                                        <div class="animal-title">Turtles are one of the oldest groups of reptiles</div>
+                                    </div>
+                                </div>
+
+                                <!-- Game Card 2 -->
+                                <div class="animal-card">
+                                    <div class="animal-image">
+                                        <img src="assets/video02.jpg" alt="Giraffe" />
+                                    </div>
+                                    <div class="animal-info">
+                                        <div class="animal-title">Giraffes are the tallest mammals</div>
+                                    </div>
+                                </div>
+
+                                <!-- Game Card 3 -->
+                                <div class="animal-card">
+                                    <div class="animal-image">
+                                        <img src="assets/vidoe03.jpg" alt="Giraffe" />
+                                    </div>
+                                    <div class="animal-info">
+                                        <div class="animal-title">Get to know the amazing mammals</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <footer>
+                    <div class="footer-wrap">
+                        <div class="logo">
+                            <a href="#">
+                                <img src="assets/logo.png" alt="logo">
+                            </a>
+                        </div>
+
+                        <div class="terms">
+                            <div><a href="terms">Terms</a></div>
+                            <div>|</div>
+                            <div><a href="privacy">Privacy</a></div>
+                            <div>|</div>
+                            <div><a href="contact">Support</a></div>
+                        </div>
+                        <div class="social">
+                            <div class="icons">
+                                <a href="https://www.facebook.com/" class="">
+                                    <img class="facebook" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAA/ElEQVRoge2WPQrCQBBGnz8Itla2lt7AzsZOQW9g4308nYpgo2IhWAhqFSQWWghqsrtxd1acByEQsjvfYydDQFH+m1KAGmVgCAyADtAEGsAROAOXx30GjAPksaILLIHU4FoJZfzIBEgwCx+dQA+78FEJVIA5duGdBcrF874wAtoe9n1L1cOefYN31sACOD0923vI4kRe+0wJM76dOZAt0JKLZsaVbIHaN4v5OMo0ZE0fUygoKiBNkX7M63VbEqDOfQgYE9MJ7LAMD3EJbF0WxSSwcVkUk8DPn4AKSOP0Dei/kDQqII0KSKMC0qiANCogjQpIowLSqICiKLLcAIjAYQHOucCfAAAAAElFTkSuQmCC" alt="facebook" />
+                                </a>
+                            </div>
+                            <div class="icons">
+                                <a href="https://www.instagram.com/" class="">
+                                <img class="instagram" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAACIklEQVRoge2YuU7DUBBFj5CShvAlFCwFgT8AIbEJ0cD/sFVsX0DIz0DNTsPaEwrSBIr3kKKJicczNgmSr/Sk2PG7d8aJ7h0bSpQoUeI/oQpsAE3gGvgAvpzrI3I1I3e1qOLXgIccCk5b98BqnoWPAHt/ULhcu1Hbjf0BFP+zdrzFryWQfgIHQB0Y9QpEjjpwBLQT9FasxFV6//PPwISv3r6YjBrdmndAxUK2Qe+dL6L4RULRT8ACMEXvL7FuIW4KkoMcik3CU5fGYzx3LLQbFuIbQTKj2JOUE2k+n9TArNC+tjTwLkhqKddrc0L6/EJs4hGYj+fGxJ53SwNS+DdYcyLN57X6bgJPTvTz+T9pQJMTVp8vvAFLTmTx+cIbsOaE1ucLb8CTExqfL7wBS078QOPzhTfQEt+n5UQ3amJvy6AP5DRvGyB1O3kRZcGrOB7PsFde+2YtwtPAhTjezLB3SxyfO+r4FRYbnVTwTjMkNlolDGYyyPo1MQ28iD23DCjIIEyV8ro2YWyYI7hNLX4+offOd4Alh767AfC9sdjOQd9NMEIYjbMU3iFMooWO01kfaFYIg1la8bfAcgpXLg80clSoK/ZUCI7SAK4ICdsCLoHT+J3mDcOc0DY9Up4JkkMLiREnQvvUQmL1eS+0OZEKi897kSUnVND4vBfWnFBjEG+mNTmhhsXnvUuTE5mh9Xnv0uSEGUk+7y3YkhMlSpQoMST4Bnazbl8qs0Q8AAAAAElFTkSuQmCC" alt="instagram" />
+                                </a>
+                            </div>
+                            <div class="icons">
+                                <a href="https://www.linkedin.com/company/" class="">
+                                <img class="linkedin" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAABmJLR0QA/wD/AP+gvaeTAAAB20lEQVRoge2YsUrDUBSGP4tg9QksBUfFxc3Fwa042NLB13ARNydBCr6Bi5uzDyCiFVwcHBzUQRBE6NiCttgKYh3SQMHe5tzkpknD+eBAIfee/F+Te5sUFEVRlGxQBepAZ1B1oJJoohg5BvqGqiWYKxaqmGX9KieWLgZuCBa+TixdDLQJFv5MLJ0lOUd9+o76xI5E+N7RmKmhQvAtvZ1YupioYZY9SjBXrJSBK7xNrD34nLkrqyhTxkzSAcZQwNs31oEikAd+gRbwCtzhvcC0XZ846CfJryjzN4bGrwLnwI9gXgc4wftynDFJ4V2gZ3FOv5pAyYGrOLAL4YMQosPVBTanRfgQb31GEe4DDWBhGoQl61Vae+NkJLv0OBlJL+l8VzSAJbw75h+uXg/TRBFYMx2cnWAQKd/ABfCM98dCAdgCli16lICHsAEmsYb9ugQWR/TIAfvIN7azkK5WgaPOfwTmA7KcCnvd2imGCxx1/o4gy4qw15uFX+jAUeZ3gTlhnndBv6Zpclp26Se8zUrCi2CMcWmkRdh4RUbwIRiTNx1Ii3DLYmxPMMb4QJUW4S+LsRJhI2kRtnn8jPSomhbhiaHCWUeFs44KZx0VzjoqnHVUWFEURVEURVHC8QeJqYKP/y2ajgAAAABJRU5ErkJggg==" alt="linkedin"/>
+                                </a>
+                            </div>
+                            <div class="icons">
+                                <a href="https://www.youtube.com/" class="">
+                                <img class="youtube" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABmJLR0QA/wD/AP+gvaeTAAACP0lEQVRoge3ZzW8NURjH8Y9yExKhJUWQqKRNy0bY+AcqYuOPsJHY2EosbKwl/hgWXtI/QEgjCCmCtA0qbQnqrWVx7iTT09GZ25n7QuabPMnMycx5nt+ZM895o6ampqampsamgs81MIwRHMA+7Mdu7EA/djavG813tmJbqo7P+Nm8XsKnlM3jPd5hGrN4ijcb0LSGIVzFQ/zA7y7YR0zgfLNhWuac0ILdCP5v9ghHWxFxFss9EHiWvcJgVtCbM+5vCX2+F+kXGvlu3oPHdL/V8+xlVuB90f1wntIe4LCQIVcRCznUmVhKMxoX/KtCjsQFsZChkg5OCWmy3YzFBbGQzNTWAndwXBjA5krWtR65PWdSuYySZheuC9OSqjPX7TwhUxUKSRjFjYqFTOYJmWmDkIRx4f+pQshMnpDFNgohzIwvYqGkn+9yZu5lZ7lFSf6fXyV8rRoU46zVKYqugzZcR9lPnkfStcp24WU5H2G6jULG8bhk/YnN5/jyrA1CxlSffjNnwGkeVCiknQPi/TjwLdH9lzylBWjgAq5goIL6sliMC2Ihb0s6OINrMiZ1FTMbF8RCnpd0cLPk+0V5ERfEKayskE6x5mf/b4U8wUpnYtkwK8IwsYpYyJyws9fLTCi4aDuBr6rP/VXYN5xsRfVpYUO524Gn7YOwC9oyg7iEe8LueTeCX2r6v4w96wVbdDrdJyz4R4TjhIPY27QB4TghseQooYHtqTrWO1ZYEHpA+lhhCq/1fvKpqampqanpHf4AGXx2NSiaKfwAAAAASUVORK5CYII=" alt="youtube"/>
+                                </a>
+                            </div>
+                            </div>
+                            <p>All rights reserved, © Moira.club 2022</p>
+                        </div>
+                    </footer>
+                </main>
+            </div>
+            <script src="script.js"></script>
+            </body>
+            </html>
